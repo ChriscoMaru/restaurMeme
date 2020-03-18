@@ -1,0 +1,11 @@
+body{
+    background-image: url(assets/pizzaTime.png);
+}
+h1,
+h3{
+    font-family: 'Coming Soon', cursive;
+    color: blanchedalmond; 
+}
+nav{
+    color: blanchedalmond;
+}
