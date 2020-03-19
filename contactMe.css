@@ -1,14 +1,47 @@
+*{
+  background-color: grey;
+}
+.navBar ul {
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navBar li {
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding: 20px;
+}
 form{
     font-family: 'Coming Soon', cursive;
+  }
+  
+img{
+  border-radius: 50%;
+  position: relative;
+  left: 45%;
+  right: 45%
 }
+
 h2{
-    font-family: 'Coming Soon', cursive;
-    font-size: 80px;
+  font-family: 'Coming Soon', cursive;
+  font-size: 80px;
   color: #fff;
   text-align: center;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
+}
+.form{
+  width: 545px;
+  height: 200px;
+  display: flex;
+  text-align: center;
+  font-size: 150%;
+  position: absolute;
+  left: 40%;
+  right: 40%;
 }
 
 @-webkit-keyframes glow {
